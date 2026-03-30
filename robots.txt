@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://familiacard.com.br/sitemap.xml
-
