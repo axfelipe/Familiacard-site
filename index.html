@@ -173,14 +173,17 @@
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 12px 30px rgba(0,0,0,.08);
-    background:#fff;
-    height:350px; /* altura padrão */
+    background:#f8f9fa;
+    aspect-ratio: 4 / 3; /* 👈 PADRÃO IGUAL PRA TODAS */
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .photo-card img {
     width:100%;
     height:100%;
-    object-fit:cover; /* mantém bonito */
+    object-fit:contain; /* 👈 NÃO CORTA */
 }
 
         .specialties { background: linear-gradient(135deg,var(--primary-blue),var(--dark-blue)); color:#fff; }
